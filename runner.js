@@ -6,4 +6,7 @@ const solved = solve(puzzle);
 const isSolvedFlag = isSolved(solved);
 if (isSolvedFlag === true) {
   prettyBoard(puzzle, solved);
+  console.log(true);
+} else {
+  console.log(false);
 }
